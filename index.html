@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>बैंगलोर Underworld</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;700&display=swap">
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --text: #ffffff;
+      --accent: #18c964;
+      --muted: #555555;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Urbanist', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    header {
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.8);
+      border-bottom: 1px solid var(--muted);
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: var(--text);
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    .hero {
+      background: url('piyush-kaila-QGA4L-cZ3cU-unsplash.jpg') no-repeat center center/cover;
+      height: 95vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 2rem;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin-top: 1rem;
+    }
+
+    .btn {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      background: var(--accent);
+      color: var(--bg);
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-transform: uppercase;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--muted);
+      background: #111111;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>बैंगलोर Underworld</h1>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#media">Media</a>
+      <a href="#files">Files</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to बैंगलोर Underworld</h2>
+    <p>The dark pulse of Bangalore - Where street meets style.</p>
+    <a href="#shop" class="btn">Enter</a>
+  </section>
+
+  <section id="shop" class="section">
+    <h3>Coming Soon</h3>
+    <p>Stay tuned for our exclusive drops.</p>
+  </section>
+
+  <section id="media" class="section">
+    <h3>Media Gallery</h3>
+    <p>Experience the visuals behind the movement.</p>
+  </section>
+
+  <section id="files" class="section">
+    <h3>Download Center</h3>
+    <p>Access resources, zines, and project files here.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Contact Us</h3>
+    <p>Connect with our WhatsApp bot: <strong>Soon to be linked</strong></p>
+    <p>Support via Razorpay coming soon.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 बैंगलोर Underworld. All rights reserved.</p>
+    <p>Website: <a href="https://www.bangaloreunderworld.shop" style="color: var(--accent);">bangaloreunderworld.shop</a></p>
+  </footer>
+</body>
+</html>
